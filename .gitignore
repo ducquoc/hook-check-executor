@@ -1,22 +1,26 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
+# .gitignore ducquoc Java (Maven, IDEA, Eclipse, NetBeans, JDev, MTJ, BlueJ, log, temp, OS, ...)
+target/
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+.settings/
+nb-configuration.xml
+nbactions.xml
+*.jpr
+*.jws
+.adf/
+.data/
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+build/
+dist/
+*.log
+*.swp
+*.lock
+*.out
+*.so
+.DS_Store
+Thumbs.db
